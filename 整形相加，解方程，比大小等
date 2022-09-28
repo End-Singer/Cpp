@@ -1,0 +1,50 @@
+#include<bits/stdc++.h>//头文件 
+using namespace std;//使用标准命名空间
+//也可以在cout前加上std::即std::cout<< （standard） 
+int main(){//main是主函数，要用{}括起来 
+//文字 
+//	printf("This is my first C program!\n");
+//整形加法 
+//	int a, b, c; //int定义整形变量 
+//	scanf("%d%d", &a, &b);
+//	c = a + b;
+//	printf("c=%d\n",c);
+//求两个变量中的较大值
+//	int x,y,z;
+//	x=5; y=9;//赋值 
+//	if (x>y) z = x;//if表示如果x>y成立，z=x 
+//	else z = y; //else否则，即如果x>y不成立 
+//	printf("最大值=%d\n", z);//双引号内字符串按原样输出，
+//变量z以十进制形式(%d)输出
+//	int a,b,c,d;
+//	a=32760;
+//	b=8;
+//	c=a+b;
+//	d=2147483647+1;
+//	cout<<"c="<<c<<endl;//endl（end line）可以换行 
+//	cout<<"d="<<d;
+//打印《春晓》
+	cout<<"《春晓》"<<endl;
+	cout<<"春眠不觉晓，"<<endl;//cout标准输出流，<<表示输出 
+	cout<<"处处闻啼鸟。"<<endl;//需要iostream的支持 
+	cout<<"夜来风雨声，"<<endl;
+	cout<<"花落知多少。";
+//解一元二次方程
+//	int a,b,c,x1,x2;
+//	a=1;
+//	b=-4;
+//	c=3;
+//	x1=(-b+sqrt(b*b-4*a*c))/(2*a);
+//	x2=(-b-sqrt(b*b-4*a*c))/(2*a);
+//	cout<<"x1="<<x1<<endl;
+//	cout<<"x2="<<x2; 
+//解一元二次方程，手动输入变量 
+//    int a,b,c,x1,x2;
+//	scanf("%d%d%d", &a, &b,&c);
+//	x1=(-b+sqrt(b*b-4*a*c))/(2*a);
+//	x2=(-b-sqrt(b*b-4*a*c))/(2*a);
+//	printf("x1=%d\n",x1);
+//	printf("x2=%d\n",x2);
+	
+	return 0;
+}
