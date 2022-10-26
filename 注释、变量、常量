@@ -1,0 +1,26 @@
+//单行注释
+#include<iostream>
+using namespace std;
+/*
+	多行注释
+	main是一个程序的入口
+	每个程序都必须有main函数
+	有且仅有一个
+*/
+#define Hour 24
+int main(){
+	cout << "Hello World!" << endl;
+//变量的定义，作用：给一段指定的内存空间起名，方便操作这段内存
+//语法：数据类型 变量名 = 初始值;
+	int a = 10;
+	cout << "a= " << a << endl;
+
+//常量，作用：用于记录程序中不可修改的数据
+//宏常量 [#define 常量名 常量值]（通常在文件上方定义）
+	cout << "一天" << Hour << "小时 。" << endl;//修改会报错
+//const修饰的变量 [const 数据类型 常量名 = 常量值]（通常在变量定义前加关键字const，修饰该变量为常量，不可修改）
+	const int minute = 60; //修改会报错
+	cout << "一分钟有" << minute << "秒。" << endl;
+	system("pause");
+	return 0;
+}
