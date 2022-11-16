@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+// 字符变量用于显示单个字符
+// 语法：char ch = '字符' （用单引号将字符括起来，只能写一个字符） 
+// c和c++中字符型只占1bit
+// 字符型变量并不是把字符本身放到内存中，而是将对应的ASCⅡ放入存储单元
+	char ch = 'A'; // 单引号，不然会报错，只能有一个字符 
+	cout << "ch = " << ch << endl;
+	cout << "char所占的内存空间：" << sizeof(char) << endl;
+// 字符型变量对应的ASCⅡ编码(将字符型转成一个十进制的数字)
+	cout << (int)ch << endl; 
+// a-97
+// A-65
+	return 0;
+}
