@@ -1,0 +1,20 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+// 实型（浮点型）分为两种：
+// 1.单精度float 4bit 7位有效数字，c++中包括小数点之前的数字 
+// 2.双精度double 8bit  15-16位有效数字 
+	float f1 = 3.14f; //在小数后面加一个f，编译器会默认为单精度
+	cout << "f1 = " << f1 << endl;
+	double d1 = 3.1415926; 
+	cout << "d1 = " << d1 << endl;
+// c++默认显示6位有效数字 
+	cout << "float占用的内存空间为" << sizeof(float)<<endl;
+	cout << "double占用的内存空间为" << sizeof(double)<<endl;
+// 科学计数法	
+	float f2 = 3e2; // 3 * 10 ^ 2
+	float f3 = 3e-3; // 3 * 0.1 ^ 3
+	cout << "f2 = " << f2 << endl;
+	cout << "f3 = " << f3 << endl;
+	return 0;
+}
