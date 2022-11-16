@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+// 数据类型存在意义：
+// 给变量分配合适的内存空间
+// short 2bit 短整型(-32768~32767)
+short num1 = 32768; //超出范围就回到下限-32768 
+// int 4bit 整型 
+int num2 = 32768;
+// long 4bit 长整型 
+long num3 = 10;
+// long long 8bit 长长整型 
+long num4 = 10;
+cout << "num1 = " << num1<<endl;
+cout << "num2 = " << num2<<endl;
+cout << "num3 = " << num3<<endl;
+cout << "num4 = " << num4<<endl;
+// 利用sizeof求出数据类型占用内存的大小
+// 语法sizeof(数据类型/变量) 
+cout << "short占用的内存空间为" << sizeof(short)<<endl;
+cout << "int占用的内存空间为" << sizeof(int)<<endl;
+cout << "long占用的内存空间为" << sizeof(num3)<<endl;
+cout << "long long占用的内存空间为" << sizeof(num4)<<endl;
+	return 0;
+}
