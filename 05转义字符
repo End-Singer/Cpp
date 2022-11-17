@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+// 由反斜杠和另一个字符组成
+// \n换行
+	cout << "Hello world\n";
+// \\反斜杠 需要一个\才能输出一个反斜杠 
+	cout << "\\" << endl;
+// \t水平制表符 \t会自动水平补齐8位 
+	cout << "1234\thello" << endl;
+	cout << "12\thello" << endl;
+	cout << "12345\thello" << endl;
+	return 0;
+}
