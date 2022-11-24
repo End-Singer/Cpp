@@ -1,0 +1,74 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	/*程序流程结构
+	1.顺序结构：程序按顺序执行，不发生跳转
+	2.选择结构：依照条件是否满足，有选择的执行相应功能
+	3.循环结构：依照条件是否满足，循环多次执行某段代码
+	
+	一.选择结构
+	1.if语句
+	 单行格式if语句：
+	 if(条件）{条件满足执行的语句}*/
+	 int a;
+	 cin>>a;
+	 if (a%2==0)
+	 {
+	 	cout<<"a是偶数"<<endl;
+	 }
+	 
+	 
+	 /*多行格式if语句：
+	 if(条件){条件满足执行的语句}
+	 else {条件不满足执行的语句} */
+	 else
+	 {
+	 	cout<<"a是奇数"<<endl;	
+	 } 
+	 
+	 
+	 /*多条件的if语句:
+	 if(条件){条件1满足执行的语句}
+	 else if(条件2){件1满足执行的语句}
+	 …… 
+	 else {条件不满足执行的语句}*/
+	 double num;
+	 cin>>num;
+	 if(num>0)
+	 {
+	 	cout<<num<<"是正数。"<<endl; 
+	 }
+	 else if(num==0)
+	 {
+	 	cout<<num<<"是零。"<<endl; 
+	 }
+	 else
+	 {
+	 	cout<<num<<"是负数。"<<endl; 
+	 }
+	 
+	 
+	 // 嵌套if语句 四年一闰,百年不闰,四百年又闰
+	int year;
+	cout<<"请输入年份：";
+	cin>>year;
+	if(year%400 == 0)
+	{
+		cout<<year<<"四百年闰。"<<endl; 
+	}
+	else
+	{
+		if(year%100 != 0)
+		{
+			if(year%4 == 0)
+			{
+				cout<<year<<"四年一闰。"<<endl; 
+			}
+		}
+		else
+		{
+			cout<<year<<"百年不闰。"<<endl;
+		}
+	}
+	return 0;
+}
