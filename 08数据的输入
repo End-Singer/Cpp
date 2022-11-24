@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	//1.整型
+	int a;
+	cout<<"请给整型赋值："<<endl;
+	cin>>a;
+	cout<<"整型变量a="<<a<<endl;
+	//2.浮点型 
+	float b;
+	cout<<"请给浮点型赋值："<<endl;
+	cin>>b;
+	cout<<"浮点型变量b="<<b<<endl;
+	//3.字符型
+	char c;
+	cout<<"请给字符型赋值："<<endl;
+	cin>>c;
+	cout<<"字符型变量c="<<c<<endl; 
+	//4.字符串型
+	string d;
+	cout<<"请给字符串型赋值："<<endl;
+	cin>>d;
+	cout<<"字符型变量d="<<d<<endl;
+	//5.布尔类型
+	bool e;
+	cout<<"请给布尔型赋值："<<endl;
+	cin>>e;
+	cout<<"布尔变量e="<<e<<endl; 
+	return 0;
+}
