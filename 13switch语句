@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	/* switch语句
+	作用：执行多条件分支语句
+	语法：
+	switch(表达式)
+	{
+		case 结果1:执行语句;break; 
+		case 结果2:执行语句;break;
+		…… 
+		default:执行语句;break; 
+	}*/
+	int score;
+	cout<<"请输入打分成绩：";
+	cin>>score;
+	switch(score)
+	{
+		case 5: cout<<"优"<<endl;break;
+		case 4: cout<<"良"<<endl;break;
+		case 3: cout<<"中"<<endl;break;
+		case 2: cout<<"及格"<<endl;break;
+		default: cout<<"差"<<endl;
+	}
+	
+	/* if和switch的区别
+	switch在判断时只能是整型或字符型，不可以是一个区间
+	switch结构清晰，执行效率高 */ 
+	return 0;
+}
