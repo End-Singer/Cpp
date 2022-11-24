@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	// 比较运算符
+	int a = 10;
+	int b = 20;
+	cout<<"a!=b的结果是："<<(a!=b)<<endl;// 加小括号优先运算a不等于b 
+	 
+	/* 逻辑运算符
+	!a，非，如果a为假则!a为真；如果a为真则!a为假。
+	a&&b，与，如果a和b都为真，则结果为真，否则为假。
+	a||b，或 ，如果a和b有一个为真，则结果为真，二者都为假时结果为假。*/
+	
+	// 非，在c++中除了0都是真。 
+	cout<<"!a="<<!a<<endl;
+	cout<<"!!a="<<!!a<<endl;
+	
+	// 与，同真为真，其余为假。 
+	cout<<"a&&b="<<(a&&b)<<endl;
+	
+	// 或，同假为假，其余为真 
+	a = 0;
+	cout<<"a=0||b的结果为"<<(a||b)<<endl; 
+	
+	 
+	return 0;
+}
