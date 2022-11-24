@@ -27,5 +27,10 @@ int main(){
 	cout<<"z="<<z<<endl;
 	// 递减同理 
 	
+	// 赋值运算符
+	int a = 10;
+	a+=5;// a = a + 5的简化 
+	cout<<"a="<<a<<endl;
+	
 	return 0;
 }
